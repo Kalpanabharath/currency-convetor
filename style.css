@@ -35,6 +35,7 @@
     border: 3px solid rgb(13, 47, 180);
     border-radius: 10px;
 }
+
 .grid>*:not(:first-child){
     background-color: transparent;
     border: 2px solid skyblue;
@@ -45,6 +46,7 @@
     
     
 }
+
 .grid>[type="text"]{
     padding: 0px 10px;
     
@@ -61,6 +63,25 @@
 
     
 }
+.grid>*:nth-child(2),
+.grid>*:nth-child(3){
+    background-color: rgb(33, 28, 192);
+}
+.grid>*:nth-child(2) option,
+.grid>*:nth-child(3) option{
+    background-color:rgb(43, 190, 222);
+    color: rgb(33, 28, 192) ;
+    text-align: center;
+    
+}
+.grid>*:nth-child(2) option:hover,
+.grid>*:nth-child(3) option:hover{
+    color:rgb(43, 190, 222);
+    background-color: rgb(33, 28, 192) ;
+
+}
+
+
 @media screen and (max-width:499px) {
     .container{
         background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image/bg.jpg);
