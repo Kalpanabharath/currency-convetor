@@ -54,7 +54,11 @@
 
 }
 .grid>*:last-child{
+  background-color: rgb(43, 190, 222);
   color: green;
+
+
+
     
 }
 @media screen and (max-width:499px) {
@@ -89,6 +93,7 @@
     .grid>*:not(:first-child){
         font-size: 20px;
     }
+   
     
      
 }
